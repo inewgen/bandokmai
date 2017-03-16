@@ -3,22 +3,22 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>@yield('title')</title>
+        <title>ร้านบ้านดอกไม้สด</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <!--[if lt IE 9]> <script src="http://www.bandokmai.com/public/demo/sima/js/html5shiv.js"></script> 
-    <script src="http://www.bandokmai.com/public/demo/sima/js/respond.min.js"></script> <![endif]-->      
+    <!--[if lt IE 9]> <script src="public/js/html5shiv.js"></script> 
+    <script src="public/js/respond.min.js"></script> <![endif]-->      
         <!-- Place favicon.ico in the root directory -->
         <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="http://www.bandokmai.com/public/demo/sima/css/normalize.css">
-        <link rel="stylesheet" href="http://www.bandokmai.com/public/demo/sima/css/main.css">
-        <link rel="stylesheet" href="http://www.bandokmai.com/public/demo/sima/css/bootstrap.min.css">
-        <link rel="stylesheet" href="http://www.bandokmai.com/public/demo/sima/css/font-awesome.min.css">
-        <link rel="stylesheet" href="http://www.bandokmai.com/public/demo/sima/css/owl.carousel.css">
-        <link rel="stylesheet" href="http://www.bandokmai.com/public/demo/sima/css/responsive.css">
-        <link rel="stylesheet" href="http://www.bandokmai.com/public/demo/sima/css/style.css">
+        <link rel="stylesheet" href="public/css/normalize.css">
+        <link rel="stylesheet" href="public/css/main.css">
+        <link rel="stylesheet" href="public/css/bootstrap.min.css">
+        <link rel="stylesheet" href="public/css/font-awesome.min.css">
+        <link rel="stylesheet" href="public/css/owl.carousel.css">
+        <link rel="stylesheet" href="public/css/responsive.css">
+        <link rel="stylesheet" href="public/css/style.css">
 
     </head>
 <body >
@@ -40,7 +40,7 @@
         <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-12">
                 <div class="lft_hd">
-                    <a href="index.html"><img src="http://www.bandokmai.com/public/demo/sima/img/logo.png" alt=""/></a>
+                    <a href="index.html"><img src="public/img/logo.png" alt=""/></a>
                 </div>
             </div>          
             <div class="col-lg-9 col-md-9 col-sm-12">
@@ -350,62 +350,62 @@
                 <div class="all-portfolios">
                     <div class="col-sm-12  col-lg-12 col-md-12 col-xs-12 ">
                     <div class="single-portfolio web-design">
-                    <img class="img-responsive" src="http://showwp.com/demos/porton/default/upload/p_06.jpg" alt="">
+                    <img class="img-responsive" src="public/img/products/001.jpg" alt="">
                     </div>              
                     </div>              
                     <div class="col-sm-12  col-lg-12 col-md-12 col-xs-12 ">
                     <div class="single-portfolio web-design">
-                    <img class="img-responsive" src="http://showwp.com/demos/porton/default/upload/p_01.jpg" alt="">
+                    <img class="img-responsive" src="public/img/products/002.jpg" alt="">
                     </div>              
                     </div>                  
                     <div class="col-sm-12  col-lg-12 col-md-12 col-xs-12 ">
                     <div class="single-portfolio web-design">
-                    <img class="img-responsive" src="http://showwp.com/demos/porton/default/upload/p_02.jpg" alt="">
+                    <img class="img-responsive" src="public/img/products/003.jpg" alt="">
                     </div>              
                     </div>                  
                     <div class="col-sm-12  col-lg-12 col-md-12 col-xs-12 ">
                     <div class="single-portfolio graphic">
-                    <img class="img-responsive" src="http://showwp.com/demos/porton/default/upload/p_03.jpg" alt="">
+                    <img class="img-responsive" src="public/img/products/001.jpg" alt="">
                     </div>              
                     </div>                  
                     <div class="col-sm-12  col-lg-12 col-md-12 col-xs-12 ">
                     <div class="single-portfolio web-design">
-                    <img class="img-responsive" src="http://showwp.com/demos/porton/default/upload/p_04.jpg" alt="">
+                    <img class="img-responsive" src="public/img/products/005.jpg" alt="">
                     </div>              
                     </div>                  
                     <div class="col-sm-12  col-lg-12 col-md-12 col-xs-12 ">
                     <div class="single-portfolio photography">
-                    <img class="img-responsive" src="http://showwp.com/demos/porton/default/upload/p_05.jpg" alt="">
+                    <img class="img-responsive" src="public/img/products/006.jpg" alt="">
                     </div>              
                     </div>              
                     <div class="col-sm-12  col-lg-12 col-md-12 col-xs-12 ">
                     <div class="single-portfolio web-design">
-                    <img class="img-responsive" src="http://showwp.com/demos/porton/default/upload/p_07.jpg" alt="">
+                    <img class="img-responsive" src="public/img/products/005.jpg" alt="">
                     </div>              
                     </div>              
                     <div class="col-sm-12  col-lg-12 col-md-12 col-xs-12 ">
                     <div class="single-portfolio web-design">
-                    <img class="img-responsive" src="http://showwp.com/demos/porton/default/upload/p_08.jpg" alt="">
+                    <img class="img-responsive" src="public/img/products/008.jpg" alt="">
                     </div>              
                     </div>              
                     <div class="col-sm-12  col-lg-12 col-md-12 col-xs-12 ">
                     <div class="single-portfolio photography">
-                    <img class="img-responsive" src="http://showwp.com/demos/porton/default/upload/p_08.jpg" alt="">
+                    <img class="img-responsive" src="public/img/products/009.jpg" alt="">
                     </div>              
                     </div>              
                     <div class="col-sm-12  col-lg-12 col-md-12 col-xs-12 ">
                     <div class="single-portfolio web-design">
-                    <img class="img-responsive" src="http://showwp.com/demos/porton/default/upload/p_08.jpg" alt="">
+                    <img class="img-responsive" src="public/img/products/001.jpg" alt="">
                     </div>              
                     </div>                  
                     <div class="col-sm-12  col-lg-12 col-md-12 col-xs-12 ">
                     <div class="single-portfolio web-design">
-                    <img class="img-responsive" src="http://showwp.com/demos/porton/default/upload/p_09.jpg" alt="">
+                    <img class="img-responsive" src="public/img/products/011.jpg" alt="">
                     </div>              
                     </div>          
                     <div class="col-sm-12  col-lg-12 col-md-12 col-xs-12 ">
                     <div class="single-portfolio photography">
-                    <img class="img-responsive" src="http://showwp.com/demos/porton/default/upload/p_08.jpg" alt="">
+                    <img class="img-responsive" src="public/img/products/012.jpg" alt="">
                     </div>              
                     </div>
                 </div>
@@ -796,20 +796,20 @@
 <!-- End footer Section -->
 
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-        <script src="http://www.bandokmai.com/public/demo/sima/js/vendor/jquery-1.11.2.min.js"></script>
+<script src="public/js/vendor/jquery-1.11.3.min.js"></script>
 
-<script src="http://www.bandokmai.com/public/demo/sima/js/isotope.pkgd.min.js"></script>
-<script src="http://www.bandokmai.com/public/demo/sima/js/bootstrap.min.js"></script>
-<script src="http://www.bandokmai.com/public/demo/sima/js/jquery-ui.js"></script>
-<script src="http://www.bandokmai.com/public/demo/sima/js/appear.js"></script>
-<script src="http://www.bandokmai.com/public/demo/sima/js/jquery.counterup.min.js"></script>
-<script src="http://www.bandokmai.com/public/demo/sima/js/waypoints.min.js"></script>
-<script src="http://www.bandokmai.com/public/demo/sima/js/owl.carousel.min.js"></script>
-<script src="http://www.bandokmai.com/public/demo/sima/js/showHide.js"></script>
-<script src="http://www.bandokmai.com/public/demo/sima/js/jquery.nicescroll.min.js"></script>
-<script src="http://www.bandokmai.com/public/demo/sima/js/jquery.easing.min.js"></script>
-<script src="http://www.bandokmai.com/public/demo/sima/js/scrolling-nav.js"></script>
-<script src="http://www.bandokmai.com/public/demo/sima/js/plugins.js"></script>
+<script src="public/js/isotope.pkgd.min.js"></script>
+<script src="public/js/bootstrap.min.js"></script>
+<!-- <script src="public/js/jquery-ui.js"></script> -->
+<script src="public/js/appear.js"></script>
+<script src="public/js/jquery.counterup.min.js"></script>
+<script src="public/js/waypoints.min.js"></script>
+<script src="public/js/owl.carousel.min.js"></script>
+<script src="public/js/showHide.js"></script>
+<script src="public/js/jquery.nicescroll.min.js"></script>
+<script src="public/js/jquery.easing.min.js"></script>
+<script src="public/js/scrolling-nav.js"></script>
+<script src="public/js/plugins.js"></script>
 <!-- Google Map js -->
         <script src="https://maps.googleapis.com/maps/api/js"></script>
         <script>
@@ -824,15 +824,15 @@
               var marker = new google.maps.Marker({
                 position: map.getCenter(),
                 animation:google.maps.Animation.BOUNCE,
-                icon: 'img/map-marker.png',
+                icon: 'public/img/map-marker.png',
                 map: map
               });
             }
             google.maps.event.addDomListener(window, 'load', initialize);
         </script>
-<script src="http://www.bandokmai.com/public/demo/sima/js/main.js"></script>
+<script src="public/js/main.js"></script>
 
-<script src="http://www.bandokmai.com/public/demo/sima/showHide.js" type="text/javascript"></script>
+<script src="public/js/showHide.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 

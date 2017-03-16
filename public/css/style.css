@@ -120,10 +120,10 @@ position : relative;
 }
 #nav_menu ul li a:hover {
 transition : all 0.4s 0s ease;
-background : #0078BF;
+background : #c8217a;
 }
 #nav_menu ul ul {
-background : none 0 0 repeat scroll #0078bf;
+background : none 0 0 repeat scroll #c8217a;
 display : none;
 left : 0;
 padding : 0;
@@ -155,13 +155,14 @@ display : block;
 margin-left : 6px;
 }
 #src_sec {
-background-image : url("../img/slide_img.jpg");
+background-image : url("../img/templatemo_header.jpg");
 background-position : center center;
 background-size : cover;
 min-height : 500px;
 }
 #abt_sec {
 padding : 70px 0;
+background-image: url(../img/orcid_bg.png);
 }
 .happy_use {
 float : right;
@@ -230,6 +231,7 @@ background : #00AFF0;
 }
 #lts_sec {
 padding-top : 30px;
+background-image: url(../img/orcid_bg.png);
 }
 .all_brouse_btn {
 border : #666666 solid 1px;
@@ -345,7 +347,7 @@ vertical-align : middle;
 width : 100%;
 }
 #slider_sec {
-background-image : url("../img/slider.jpg");
+background-image : url("../img/templatemo_header.jpg");
 background-position : center center;
 background-repeat : no-repeat;
 background-size : 100% 100%;
@@ -539,7 +541,7 @@ width : 100%;
 text-align : center;
 }
 #tstm_sec {
-background-image : url("../img/testimonial_bg.jpg");
+background-image : url("../img/templatemo_header_subpage.jpg");
 background-position : center center;
 background-repeat : no-repeat;
 background-size : 100% 100%;
@@ -789,7 +791,7 @@ color : #00AFF0;transition: all 1s ease 0s;
 padding : 3px;
 }
 #ltd_map_sec {
-background : none 0 0 repeat scroll #363636;
+background : none 0 0 repeat scroll #f88adb;
 text-align : center;
 }
 .map > h1 {
@@ -833,7 +835,7 @@ margin-left : 15px;
 padding : 100px 0;
 }
 .main_menu_sec {
-background : none 0 0 repeat scroll #353638;
+background : none 0 0 repeat scroll #f88adb;
 border : none 0;
 margin : 0;
 }
