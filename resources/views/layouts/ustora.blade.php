@@ -84,7 +84,7 @@
             <div class="row">
                 <div class="col-sm-6">
                     <div class="logo">
-                        <h1><a href="./"><img src="public/demo/ustora/img/logo.png"></a></h1>
+                        <h1><a href="./"><img src="public/img/logo.png"></a></h1>
                     </div>
                 </div>
                 
@@ -141,9 +141,9 @@
 					<li><img src="public/demo/ustora/img/h4-slide2.png" alt="Slide">
 						<div class="caption-group">
 							<h2 class="caption title">
-								by one, get one <span class="primary">50% <strong>off</strong></span>
+							บริการให้เช่าเก้าอี้ โต๊ะ
 							</h2>
-							<h4 class="caption subtitle">school supplies & backpacks.*</h4>
+							<h4 class="caption subtitle">จัดงานทุกประเภท ทั้งในและนอกสถานที</h4>
 							<a class="caption button-radius" href="#"><span class="icon"></span>Shop now</a>
 						</div>
 					</li>
@@ -212,81 +212,81 @@
                         <div class="product-carousel">
                             <div class="single-product">
                                 <div class="product-f-image">
-                                    <img src="public/img/products/001.jpg" alt="">
+                                    <img src="public/img/products/001.png" alt="">
                                     <div class="product-hover">
                                         <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
                                         <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
                                     </div>
                                 </div>
                                 
-                                <h2><a href="single-product.html">Samsung Galaxy s5- 2015</a></h2>
+                                <h2><a href="single-product.html">ช่อกุหลาบสีขาว</a></h2>
                                 
                                 <div class="product-carousel-price">
-                                    <ins>$700.00</ins> <del>$100.00</del>
+                                    <ins>฿700.00</ins> <del>฿1000.00</del>
                                 </div> 
                             </div>
                             <div class="single-product">
                                 <div class="product-f-image">
-                                    <img src="public/demo/ustora/img/product-2.jpg" alt="">
+                                    <img src="public/img/products/002.png" alt="">
                                     <div class="product-hover">
                                         <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
                                         <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
                                     </div>
                                 </div>
                                 
-                                <h2>Nokia Lumia 1320</h2>
+                                <h2>ช่อกุหลาบสีชมพู</h2>
                                 <div class="product-carousel-price">
-                                    <ins>$899.00</ins> <del>$999.00</del>
+                                    <ins>฿899.00</ins> <del>฿999.00</del>
                                 </div> 
                             </div>
                             <div class="single-product">
                                 <div class="product-f-image">
-                                    <img src="public/demo/ustora/img/product-3.jpg" alt="">
+                                    <img src="public/img/products/003.png" alt="">
                                     <div class="product-hover">
                                         <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
                                         <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
                                     </div>
                                 </div>
                                 
-                                <h2>LG Leon 2015</h2>
+                                <h2>ช่อกุหลาบสีแดง + สีชมพู</h2>
 
                                 <div class="product-carousel-price">
-                                    <ins>$400.00</ins> <del>$425.00</del>
+                                    <ins>฿400.00</ins> <del>฿425.00</del>
                                 </div>                                 
                             </div>
                             <div class="single-product">
                                 <div class="product-f-image">
-                                    <img src="public/demo/ustora/img/product-4.jpg" alt="">
+                                    <img src="public/img/products/004.png" alt="">
                                     <div class="product-hover">
                                         <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
                                         <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
                                     </div>
                                 </div>
                                 
-                                <h2><a href="single-product.html">Sony microsoft</a></h2>
+                                <h2><a href="single-product.html">ช่อกุหลาบสีแดง</a></h2>
 
                                 <div class="product-carousel-price">
-                                    <ins>$200.00</ins> <del>$225.00</del>
+                                    <ins>฿200.00</ins> <del>฿225.00</del>
                                 </div>                            
                             </div>
                             <div class="single-product">
                                 <div class="product-f-image">
-                                    <img src="public/demo/ustora/img/product-5.jpg" alt="">
+                                    <img src="public/img/products/005.png" alt="">
                                     <div class="product-hover">
                                         <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
                                         <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
                                     </div>
                                 </div>
                                 
-                                <h2>iPhone 6</h2>
+                                <h2>แจกันกุหลาบสีขาว</h2>
 
                                 <div class="product-carousel-price">
-                                    <ins>$1200.00</ins> <del>$1355.00</del>
+                                    <ins>฿1200.00</ins> <del>฿1355.00</del>
                                 </div>                                 
                             </div>
                             <div class="single-product">
                                 <div class="product-f-image">
-                                    <img src="public/demo/ustora/img/product-6.jpg" alt="">
+                                    <img src="public/img/products/001.png" alt="">
                                     <div class="product-hover">
                                         <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
                                         <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
@@ -296,7 +296,7 @@
                                 <h2><a href="single-product.html">Samsung gallaxy note 4</a></h2>
 
                                 <div class="product-carousel-price">
-                                    <ins>$400.00</ins>
+                                    <ins>฿400.00</ins>
                                 </div>                            
                             </div>
                         </div>
@@ -337,8 +337,8 @@
                         <h2 class="product-wid-title">Top Sellers</h2>
                         <a href="" class="wid-view-more">View All</a>
                         <div class="single-wid-product">
-                            <a href="single-product.html"><img src="public/demo/ustora/img/product-thumb-1.jpg" alt="" class="product-thumb"></a>
-                            <h2><a href="single-product.html">Sony Smart TV - 2015</a></h2>
+                            <a href="single-product.html"><img src="public/img/products/001_thumb.png" alt="" class="product-thumb"></a>
+                            <h2><a href="single-product.html">ช่อกุหลาบสีชมพู</a></h2>
                             <div class="product-wid-rating">
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
@@ -347,12 +347,12 @@
                                 <i class="fa fa-star"></i>
                             </div>
                             <div class="product-wid-price">
-                                <ins>$400.00</ins> <del>$425.00</del>
+                                <ins>฿400.00</ins> <del>฿425.00</del>
                             </div>                            
                         </div>
                         <div class="single-wid-product">
-                            <a href="single-product.html"><img src="public/demo/ustora/img/product-thumb-2.jpg" alt="" class="product-thumb"></a>
-                            <h2><a href="single-product.html">Apple new mac book 2015</a></h2>
+                            <a href="single-product.html"><img src="public/img/products/001_thumb.png" alt="" class="product-thumb"></a>
+                            <h2><a href="single-product.html">ช่อกุหลาบสีชมพู</a></h2>
                             <div class="product-wid-rating">
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
@@ -361,12 +361,12 @@
                                 <i class="fa fa-star"></i>
                             </div>
                             <div class="product-wid-price">
-                                <ins>$400.00</ins> <del>$425.00</del>
+                                <ins>฿400.00</ins> <del>฿425.00</del>
                             </div>                            
                         </div>
                         <div class="single-wid-product">
-                            <a href="single-product.html"><img src="public/demo/ustora/img/product-thumb-3.jpg" alt="" class="product-thumb"></a>
-                            <h2><a href="single-product.html">Apple new i phone 6</a></h2>
+                            <a href="single-product.html"><img src="public/img/products/001_thumb.png" alt="" class="product-thumb"></a>
+                            <h2><a href="single-product.html">ช่อกุหลาบสีชมพู</a></h2>
                             <div class="product-wid-rating">
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
@@ -375,7 +375,7 @@
                                 <i class="fa fa-star"></i>
                             </div>
                             <div class="product-wid-price">
-                                <ins>$400.00</ins> <del>$425.00</del>
+                                <ins>฿400.00</ins> <del>฿425.00</del>
                             </div>                            
                         </div>
                     </div>
@@ -385,8 +385,8 @@
                         <h2 class="product-wid-title">Recently Viewed</h2>
                         <a href="#" class="wid-view-more">View All</a>
                         <div class="single-wid-product">
-                            <a href="single-product.html"><img src="public/demo/ustora/img/product-thumb-4.jpg" alt="" class="product-thumb"></a>
-                            <h2><a href="single-product.html">Sony playstation microsoft</a></h2>
+                            <a href="single-product.html"><img src="public/img/products/001_thumb.png" alt="" class="product-thumb"></a>
+                            <h2><a href="single-product.html">ช่อกุหลาบสีชมพู</a></h2>
                             <div class="product-wid-rating">
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
@@ -395,12 +395,12 @@
                                 <i class="fa fa-star"></i>
                             </div>
                             <div class="product-wid-price">
-                                <ins>$400.00</ins> <del>$425.00</del>
+                                <ins>฿400.00</ins> <del>฿425.00</del>
                             </div>                            
                         </div>
                         <div class="single-wid-product">
-                            <a href="single-product.html"><img src="public/demo/ustora/img/product-thumb-1.jpg" alt="" class="product-thumb"></a>
-                            <h2><a href="single-product.html">Sony Smart Air Condtion</a></h2>
+                            <a href="single-product.html"><img src="public/img/products/001_thumb.png" alt="" class="product-thumb"></a>
+                            <h2><a href="single-product.html">ช่อกุหลาบสีชมพู</a></h2>
                             <div class="product-wid-rating">
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
@@ -409,12 +409,12 @@
                                 <i class="fa fa-star"></i>
                             </div>
                             <div class="product-wid-price">
-                                <ins>$400.00</ins> <del>$425.00</del>
+                                <ins>฿400.00</ins> <del>฿425.00</del>
                             </div>                            
                         </div>
                         <div class="single-wid-product">
-                            <a href="single-product.html"><img src="public/demo/ustora/img/product-thumb-2.jpg" alt="" class="product-thumb"></a>
-                            <h2><a href="single-product.html">Samsung gallaxy note 4</a></h2>
+                            <a href="single-product.html"><img src="public/img/products/001_thumb.png" alt="" class="product-thumb"></a>
+                            <h2><a href="single-product.html">ช่อกุหลาบสีชมพู</a></h2>
                             <div class="product-wid-rating">
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
@@ -423,7 +423,7 @@
                                 <i class="fa fa-star"></i>
                             </div>
                             <div class="product-wid-price">
-                                <ins>$400.00</ins> <del>$425.00</del>
+                                <ins>฿400.00</ins> <del>฿425.00</del>
                             </div>                            
                         </div>
                     </div>
@@ -433,8 +433,8 @@
                         <h2 class="product-wid-title">Top New</h2>
                         <a href="#" class="wid-view-more">View All</a>
                         <div class="single-wid-product">
-                            <a href="single-product.html"><img src="public/demo/ustora/img/product-thumb-3.jpg" alt="" class="product-thumb"></a>
-                            <h2><a href="single-product.html">Apple new i phone 6</a></h2>
+                            <a href="single-product.html"><img src="public/img/products/001_thumb.png" alt="" class="product-thumb"></a>
+                            <h2><a href="single-product.html">ช่อกุหลาบสีชมพู</a></h2>
                             <div class="product-wid-rating">
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
@@ -443,12 +443,12 @@
                                 <i class="fa fa-star"></i>
                             </div>
                             <div class="product-wid-price">
-                                <ins>$400.00</ins> <del>$425.00</del>
+                                <ins>฿400.00</ins> <del>฿425.00</del>
                             </div>                            
                         </div>
                         <div class="single-wid-product">
-                            <a href="single-product.html"><img src="public/demo/ustora/img/product-thumb-4.jpg" alt="" class="product-thumb"></a>
-                            <h2><a href="single-product.html">Samsung gallaxy note 4</a></h2>
+                            <a href="single-product.html"><img src="public/img/products/001_thumb.png" alt="" class="product-thumb"></a>
+                            <h2><a href="single-product.html">ช่อกุหลาบสีชมพู</a></h2>
                             <div class="product-wid-rating">
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
@@ -457,12 +457,12 @@
                                 <i class="fa fa-star"></i>
                             </div>
                             <div class="product-wid-price">
-                                <ins>$400.00</ins> <del>$425.00</del>
+                                <ins>฿400.00</ins> <del>฿425.00</del>
                             </div>                            
                         </div>
                         <div class="single-wid-product">
-                            <a href="single-product.html"><img src="public/demo/ustora/img/product-thumb-1.jpg" alt="" class="product-thumb"></a>
-                            <h2><a href="single-product.html">Sony playstation microsoft</a></h2>
+                            <a href="single-product.html"><img src="public/img/products/001_thumb.png" alt="" class="product-thumb"></a>
+                            <h2><a href="single-product.html">ช่อกุหลาบสีชมพู</a></h2>
                             <div class="product-wid-rating">
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
@@ -471,7 +471,7 @@
                                 <i class="fa fa-star"></i>
                             </div>
                             <div class="product-wid-price">
-                                <ins>$400.00</ins> <del>$425.00</del>
+                                <ins>฿400.00</ins> <del>฿425.00</del>
                             </div>                            
                         </div>
                     </div>
@@ -486,8 +486,8 @@
             <div class="row">
                 <div class="col-md-3 col-sm-6">
                     <div class="footer-about-us">
-                        <h2>u<span>Stora</span></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis sunt id doloribus vero quam laborum quas alias dolores blanditiis iusto consequatur, modi aliquid eveniet eligendi iure eaque ipsam iste, pariatur omnis sint! Suscipit, debitis, quisquam. Laborum commodi veritatis magni at?</p>
+                        <h2>ร้าน<span>บ้านดอกไม้สด</span></h2>
+                        <p>รับจัดดอกไม้ ทั้งในและนอกสถานที่ ขายดอกไม้สดและปลอมทั้งปลีกและส่ง รับจัดช่อดอกไม้ พวงรีด ขายอุปกรณ์จัดดอกไม้ทุกชนิด ทั้งปลีกและส่ง บริการจัดส่งดอกไม้ถึงมือผู้รับสนใจสอบถามรายละเอียดได้ที่ 064-9392959</p>
                         <div class="footer-social">
                             <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
                             <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
