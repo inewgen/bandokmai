@@ -66,6 +66,7 @@
                             <li class="dropdown dropdown-small">
                                 <a data-toggle="dropdown" data-hover="dropdown" class="dropdown-toggle" href="#"><span class="key">language :</span><span class="value">English </span><b class="caret"></b></a>
                                 <ul class="dropdown-menu">
+                                    <li><a href="#">ไทย</a></li>
                                     <li><a href="#">English</a></li>
                                     <li><a href="#">French</a></li>
                                     <li><a href="#">German</a></li>
@@ -128,13 +129,13 @@
 			<div class="block-slider block-slider4">
 				<ul class="" id="bxslider-home4">
 					<li>
-						<img src="public/demo/ustora/img/h4-slide.png" alt="Slide">
+						<img src="public/demo/ustora/img/slid/01.png" alt="Slide">
 						<div class="caption-group">
 							<h2 class="caption title">
-								iPhone <span class="primary">6 <strong>Plus</strong></span>
+								รับจัด <span class="primary">ดอกไม้ <strong>สด</strong></span>
 							</h2>
-							<h4 class="caption subtitle">Dual SIM</h4>
-							<a class="caption button-radius" href="#"><span class="icon"></span>Shop now</a>
+							<h4 class="caption subtitle">ทั้งในและนอกสถานที่</h4>
+							<a class="caption button-radius" href="#"><span class="icon"></span>รายละเอียด</a>
 						</div>
 					</li>
 					<li><img src="public/demo/ustora/img/h4-slide2.png" alt="Slide">
@@ -207,7 +208,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="latest-product">
-                        <h2 class="section-title">Latest Products</h2>
+                        <h2 class="section-title">สินค้าล่าสุดของเรา</h2>
                         <div class="product-carousel">
                             <div class="single-product">
                                 <div class="product-f-image">

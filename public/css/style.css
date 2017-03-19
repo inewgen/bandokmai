@@ -155,14 +155,14 @@ display : block;
 margin-left : 6px;
 }
 #src_sec {
-background-image : url("../img/orcid_bg.png");
+background-image : url("../img/bg.png");
 background-position : center center;
 background-size : cover;
 min-height : 500px;
 }
 #abt_sec {
 padding : 70px 0;
-background-image: url(../img/orcid_bg.png);
+background-image: url(../img/bg.png);
 }
 .happy_use {
 float : right;
