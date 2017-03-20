@@ -11,8 +11,5 @@
 |
 */
 
-Route::get('/', 'HomeController@index');
-
-// Route::get('/', function () {dd('Comming soon');
-//     return view('welcome');
-// });
+Route::get('/product', 'FrontProductController@index');
+Route::get('/', 'FrontHomeController@index');
