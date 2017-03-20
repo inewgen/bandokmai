@@ -113,7 +113,7 @@
                         <li class="active"><a href="index.html">หน้าหลัก</a></li>
                         <li><a href="shop.html">หน้าร้านค้า</a></li>
                         <li><a href="single-product.html">Single product</a></li>
-                        <li><a href="cart.html">Cart</a></li>
+                        <li><a href="cart.html">ตะกร้าสินค้า</a></li>
                         <li><a href="checkout.html">Checkout</a></li>
                         <li><a href="#">Category</a></li>
                         <li><a href="#">Others</a></li>
