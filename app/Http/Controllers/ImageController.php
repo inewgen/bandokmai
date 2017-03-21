@@ -15,8 +15,14 @@ class ImageController extends Controller
      */
     public function resizeImage()
     {
-    	$destinationPath = public_path('/images/001.png');
-    	$img = Image::make($destinationPath)->fit(195, 195);
+    	//globals $destinationPath = public_path('/images/001.png');
+    	$GLOBALS['destinationPath'] = public_path('/images/001.png');
+    	//$img = Image::make($destinationPath)->fit(195, 195)->brightness(10)->contrast(65);
+
+    	$img = Image::cache(function($image) {
+    		// $destinationPath = public_path('/images/001.png');
+		   $image->make($GLOBALS['destinationPath'])->fit(195, 195)->brightness(10)->contrast(10);
+		}, 10, true);
 
     	return $img->response('jpg');
     	//return view('admin.upload.index');
