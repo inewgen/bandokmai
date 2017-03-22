@@ -18,7 +18,7 @@ class ImageController extends Controller
      * @param  int  $id
      * @return Response
      */
-    public function getImage($user_id = null, $code = null, $extension = null, $width = null, $height = null, $name = 'siamits.jpg')
+    public function getImage($user_id = null, $code = null, $extension = null, $width = null, $height = null, $name = 'ranbandokmaisod.jpg')
     {
         $data['user_id'] = $user_id;
         $data['code'] = $code;
@@ -65,7 +65,7 @@ class ImageController extends Controller
         return $response;
     }
 
-    public function getImage2($user_id = null, $code = null, $extension = null, $width = null, $height = null, $name = 'siamits.jpg')
+    public function getImage2($user_id = null, $code = null, $extension = null, $width = null, $height = null, $name = 'ranbandokmaisod.jpg')
     {
         $data['user_id'] = $user_id;
         $data['code'] = $code;
@@ -127,7 +127,7 @@ class ImageController extends Controller
      * @param  int  $id
      * @return Response
      */
-    public function getImg($section = null, $code = null, $extension = null, $width = null, $height = null, $name = 'siamits.jpg')
+    public function getImg($section = null, $code = null, $extension = null, $width = null, $height = null, $name = 'ranbandokmaisod.jpg')
     {
         $data['section'] = $section;
         $data['code'] = $code;
