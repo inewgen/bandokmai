@@ -22,24 +22,6 @@ class UsersController extends BaseController
             'url_res' => Config::get('url.ranbandokmaisod-res')
         );
 
-        $url = 'http://apis.ranbandokmaisod.dev/api/users?email=admin@admin.com&password=3995496419daf66ce0cd6437165c0cbe';
-        // $parameters = [
-        //     'email' => 'admin@admin.com',
-        //     'password' => $this->scode->pencode('password', '@SiamiTS!'),
-        // ];
-        // $client = new Client(Config::get('url.ranbandokmaisod-api'));
-        // $results = $client->get('users', $parameters);
-        // $results = json_decode($results, true);
-// $url = 'http://www.google.com';
-        $client = new GuzzleHttp\Client();
-$res = $client->get($url);
-echo $res->getStatusCode(); // 200
-echo $res->getBody();
-
-// alert(Config::get('url.ranbandokmaisod-api'));
-// alert($results);
-die('***');
-
         $script = $theme->scopeWithLayout('home.jscript_login', $view)->content();
         $theme->asset()->container('inline_script')->usePath()->writeContent('custom-inline-script', $script);
 

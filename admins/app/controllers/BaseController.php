@@ -52,10 +52,10 @@ class BaseController extends Controller
                 if (isset($user['id']) && is_numeric($user['id']) && $user['id'] > 0) {
                     //self::$user_id = $user['id'];
 
-                    // return $user['id'];
+                    return $user['id'];
                 }
             } catch (Exception $e) {
-                // return false;
+                return false;
             }
 
         }
