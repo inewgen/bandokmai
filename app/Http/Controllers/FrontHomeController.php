@@ -17,12 +17,14 @@ class FrontHomeController extends Controller
     public function index()
     {
         // Menu
-        $result = Menu::where('status', 1)
-               ->orderBy('order', 'asc')
-               ->take(20)
-               ->get();
-        $menus = json_decode($result, true);
+        $params  = [ 'user_id' => 1 ];
+        $results = requestClient('GET', 'navigations', $params);
+        $menus   = array_get($results, 'data.record', []);
 
+        // Banners
+        $results = requestClient('GET', 'banners', $params);
+        $banners = array_get($results, 'data.record', []);
+// alert($banners,1);
         // Slider
         $result = Slider::where('status', 1)
                ->orderBy('order', 'asc')
@@ -32,6 +34,7 @@ class FrontHomeController extends Controller
 
         $view = [
             'menus'   => $menus,
+            'banners' => $banners,
             'sliders' => $sliders,
         ];
 

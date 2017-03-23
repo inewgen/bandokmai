@@ -17,13 +17,13 @@
 <?php   if (array_get($menu, 'url', '') == '') : ?>
                         <li class="<?php echo Request::is('/') ? 'active' : '';?>">
                             <a href="{{ env('APP_URL') }}/<?php echo array_get($menu, 'url', ''); ?>">
-                                <?php echo array_get($menu, 'name', ''); ?>
+                                <?php echo array_get($menu, 'title', ''); ?>
                             </a>
                         </li>
 <?php   else : ?>
                         <li class="<?php echo Request::is(array_get($menu, 'url', '')) ? 'active' : '';?>">
                             <a href="{{ env('APP_URL') }}/<?php echo array_get($menu, 'url', ''); ?>">
-                                <?php echo array_get($menu, 'name', ''); ?>
+                                <?php echo array_get($menu, 'title', ''); ?>
                             </a>
                         </li>
 <?php   endif; ?>
