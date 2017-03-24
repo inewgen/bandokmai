@@ -84,8 +84,8 @@ if (!function_exists('loopImages')) {
             }
 
             if ($section == 'banners') {
-                $w = 1440;
-                $h = 500;
+                $w = 1163;
+                $h = 365;
             }
 
             $file_name = $value3['code'] . '.' . $value3['extension'];
