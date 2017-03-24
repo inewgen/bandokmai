@@ -20,6 +20,10 @@ class Navigations extends Eloquent
      */
     public function scopeFilters($query, $filters = array())
     {
+        if ($val = array_get($filters, 'id')) {
+            $query->where('id', '=', $val);
+        }
+
         if ($val = array_get($filters, 'member_id')) {
             $query->where('member_id', '=', $val);
         }

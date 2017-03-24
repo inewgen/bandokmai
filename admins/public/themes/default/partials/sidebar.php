@@ -41,6 +41,15 @@
                     <i class="fa fa-dashboard"></i> <span>Dashboard</span> <i class="fa fa-angle-left pull-right"></i>
                 </a>
             </li>
+            <li class="<?php echo Request::is('navigations*') ? 'active ' : '';?>treeview">
+                <a href="<?php echo URL::to('navigations');?>">
+                    <i class="fa fa-files-o"></i> <span>Navigations</span> <i class="fa fa-angle-left pull-right"></i>
+                </a>
+                <ul class="treeview-menu">
+                    <li class="<?php echo Request::is('navigations') ? 'active' : '';?>"><a href="<?php echo URL::to('navigations');?>"><i class="fa fa-circle-o"></i> List Navigations</a></li>
+                    <li class="<?php echo Request::is('navigations/add*') ? 'active' : '';?>"><a href="<?php echo URL::to('navigations/add');?>"><i class="fa fa-circle-o"></i> Add Navigations</a></li>
+                </ul>
+            </li>
             <li class="<?php echo Request::is('banners*') ? 'active ' : '';?>treeview">
                 <a href="<?php echo URL::to('banners');?>">
                     <i class="fa fa-files-o"></i> <span>Banners</span> <i class="fa fa-angle-left pull-right"></i>

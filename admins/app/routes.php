@@ -53,6 +53,14 @@ Route::group(array('before' => 'auth'), function () {
     Route::get('profile/password', array('uses' => 'UsersController@password'));
     Route::post('profile/password', array('uses' => 'UsersController@editPassword'));
 
+    if (routeLoad($prefix . 'navigations', $req_path)) {
+        Route::get('navigations', 'NavigationsController@getIndex');
+        Route::get('navigations/add', 'NavigationsController@getAdd');
+        Route::post('navigations/add', 'NavigationsController@postAdd');
+        Route::get('navigations/{id}', 'NavigationsController@getEdit');
+        Route::post('navigations', 'NavigationsController@postEdit');
+    }
+
     if (routeLoad($prefix . 'banners', $req_path)) {
         Route::get('banners', 'BannersController@getIndex');
         Route::get('banners/add', 'BannersController@getAdd');

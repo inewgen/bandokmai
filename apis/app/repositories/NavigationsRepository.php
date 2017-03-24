@@ -11,7 +11,7 @@ class NavigationsRepository implements NavigationsRepositoryInterface
 
         $filters = $data;
 
-        $query = Navigations::filters($filters)->orderBy('member_id', 'desc');
+        $query = Navigations::filters($filters)->orderBy('user_id', 'desc');
 
         $results = $query->get();
 
@@ -31,12 +31,12 @@ class NavigationsRepository implements NavigationsRepositoryInterface
         }
 
         // [1] Insert Navigations
-        $results               = new Navigations();
-        $results->member_id    = $data['member_id'];
-        $results->title        = $data['title'];
-        $results->position     = (isset($data['position']) ? $data['position'] : '0');
-        $results->url          = $data['url'];
-        $results->status       = (isset($data['parent_id']) ? $data['parent_id'] : '1');
+        $results           = new Navigations();
+        $results->user_id  = $data['user_id'];
+        $results->title    = $data['title'];
+        $results->position = (isset($data['position']) ? $data['position'] : '0');
+        $results->url      = $data['url'];
+        $results->status   = (isset($data['status']) ? $data['status'] : '1');
         $results->save();
 
         if (!isset($results)) {

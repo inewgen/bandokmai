@@ -60,7 +60,51 @@ class NavigationsController extends ApiController
 
     public function show($id)
     {
-        return API::createResponse('Show', 0);
+        $data = Input::all();
+        $data['id'] = $id;
+
+        // Validator request
+        $rules = array(
+            'id' => 'required|integer|min:1',
+        );
+
+        $validator = Validator::make($data, $rules);
+        if ($validator->fails()) {
+            $response = array(
+                'message' => $validator->messages()->first(),
+            );
+
+            return API::createResponse($response, 1003);
+        }
+
+        // Get cache value
+        $keycache = getKeyCache($this->pathcache . '.show.' . $id, $data);
+        
+        if ($response = getCache($keycache)) {
+            return API::createResponse($response, 0);
+        }
+
+        $filters = array(
+            'id' => $id,
+        );
+        $query = Navigations::filters($filters)->get();
+        $results = json_decode($query, true);
+
+        if (!$results) {
+            $response = array();
+
+            return API::createResponse($response, 1004);
+        }
+
+        $response = array(
+            'cached' => false,
+            'record' => array_get($results, '0', '')
+        );
+
+        // Save cache value
+        saveCache($keycache, $response);
+
+        return API::createResponse($response, 0);
     }
 
     public function store()
