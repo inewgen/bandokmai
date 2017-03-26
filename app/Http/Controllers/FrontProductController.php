@@ -16,25 +16,29 @@ class FrontProductController extends Controller
      */
     public function index()
     {
-        // Menu
-        $result = Menu::where('status', 1)
-               ->orderBy('order', 'asc')
-               ->take(20)
-               ->get();
-        $menus = json_decode($result, true);
-
-        // Slider
-        $result = Slider::where('status', 1)
-               ->orderBy('order', 'asc')
-               ->take(20)
-               ->get();
-        $slider = json_decode($result, true);
-
         $view = [
-            'menus'  => $menus,
-            'slider' => $slider,
+            'menus'  => [],
         ];
 
-        return view('front.home.index', $view);
+        return view('front.products.index', $view);
+    }
+
+    public function show($id)
+    {
+        // Menu
+        $params  = [ 'user_id' => 1, 'status' => 1, 'order' => 'position', 'sort' => 'asc'];
+        $results = requestClient('GET', 'navigations', $params);
+        $menus   = array_get($results, 'data.record', []);
+
+        // Normal products
+        $results = requestClient('GET', 'products/' . $id, $params);
+        $products = array_get($results, 'data.record', []);
+alert($products);
+        $view = [
+            'menus'      => $menus,
+            'products'   => $products,
+        ];
+
+        return view('front.products.show', $view);
     }
 }

@@ -11,8 +11,6 @@
 |
 */
 
-Route::get('image', 'ImageController@resizeImage');
-Route::post('image', ['as'=>'image', 'uses'=>'ImageController@resizeImagePost']);
-
-Route::get('/product', 'FrontProductController@index');
+Route::get('/products', 'FrontProductController@index');
+Route::get('/products/{user_id}', 'FrontProductController@show');
 Route::get('/', 'FrontHomeController@index');

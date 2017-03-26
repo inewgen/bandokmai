@@ -13,26 +13,28 @@
                                 <div class="product-f-image">
                                     <img src="<?php echo array_get($product_h, 'images.0.url', '');?>" alt="">
                                     <div class="product-hover">
-                                        <a href="#" class="add-to-cart-link">
+                                        <a href="<?php echo url('products/' . array_get($product_h, 'id', ''));?>" class="add-to-cart-link">
                                             <i class="fa fa-shopping-cart"></i>
-                                            Add to cart
+                                            สั่งซื้อ
                                         </a>
                                         <a href="<?php echo url('products/' . array_get($product_h, 'id', ''));?>" class="view-details-link">
                                             <i class="fa fa-link"></i>
-                                            See details
+                                            ดูรายละเอียด
                                         </a>
                                     </div>
                                 </div>
                                 
                                 <h2>
-                                    <a href="single-product.html">
+                                    <a href="<?php echo url('products/' . array_get($product_h, 'id', ''));?>">
                                         <?php echo array_get($product_h, 'title', '');?>
                                     </a>
                                 </h2>
                                 
                                 <div class="product-carousel-price">
                                     <ins>฿<?php echo array_get($product_h, 'price', '');?></ins>
+<?php       if (array_get($product_h, 'price_normal', '0') > 0) : ?>
                                     <del>฿<?php echo array_get($product_h, 'price_normal', '');?></del>
+<?php       endif; ?>
                                 </div> 
                             </div>
 <?php   endforeach; ?>

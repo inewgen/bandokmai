@@ -7,11 +7,11 @@
 <html lang="en">
   <head>
     
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="/manifest.json">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo URL::to('');?>/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="<?php echo URL::to('');?>/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="<?php echo URL::to('');?>/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="<?php echo URL::to('');?>/manifest.json">
+    <link rel="mask-icon" href="<?php echo URL::to('');?>/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="theme-color" content="#ffffff">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,15 +24,15 @@
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,100' rel='stylesheet' type='text/css'>
     
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="public/demo/ustora/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo URL::to('public/demo/ustora/');?>/css/bootstrap.min.css">
     
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="public/demo/ustora/css/font-awesome.min.css">
+    <link rel="stylesheet" href="<?php echo URL::to('public/demo/ustora/');?>/css/font-awesome.min.css">
     
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="public/demo/ustora/css/owl.carousel.css">
-    <link rel="stylesheet" href="public/demo/ustora/css/style.css">
-    <link rel="stylesheet" href="public/demo/ustora/css/responsive.css">
+    <link rel="stylesheet" href="<?php echo URL::to('public/demo/ustora/');?>/css/owl.carousel.css">
+    <link rel="stylesheet" href="<?php echo URL::to('public/demo/ustora/');?>/css/style.css">
+    <link rel="stylesheet" href="<?php echo URL::to('public/demo/ustora/');?>/css/responsive.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -66,18 +66,18 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     
     <!-- jQuery sticky menu -->
-    <script src="public/demo/ustora/js/owl.carousel.min.js"></script>
-    <script src="public/demo/ustora/js/jquery.sticky.js"></script>
+    <script src="<?php echo URL::to('public/demo/ustora/');?>/js/owl.carousel.min.js"></script>
+    <script src="<?php echo URL::to('public/demo/ustora/');?>/js/jquery.sticky.js"></script>
     
     <!-- jQuery easing -->
-    <script src="public/demo/ustora/js/jquery.easing.1.3.min.js"></script>
+    <script src="<?php echo URL::to('public/demo/ustora/');?>/js/jquery.easing.1.3.min.js"></script>
     
     <!-- Main Script -->
-    <script src="public/demo/ustora/js/main.js"></script>
+    <script src="<?php echo URL::to('public/demo/ustora/');?>/js/main.js"></script>
     
     <!-- Slider -->
-    <script type="text/javascript" src="public/demo/ustora/js/bxslider.min.js"></script>
-	<script type="text/javascript" src="public/demo/ustora/js/script.slider.js"></script>
+    <script type="text/javascript" src="<?php echo URL::to('public/demo/ustora/');?>/js/bxslider.min.js"></script>
+	<script type="text/javascript" src="<?php echo URL::to('public/demo/ustora/');?>/js/script.slider.js"></script>
     @stack('scripts')
 
   </body>
