@@ -1,3 +1,4 @@
+<?php if (isset($products_h) && is_array($products_h)): ?>
     <div class="maincontent-area">
         <div class="zigzag-bottom"></div>
         <div class="container">
@@ -6,98 +7,40 @@
                     <div class="latest-product">
                         <h2 class="section-title">สินค้าแนะนำ</h2>
                         <div class="product-carousel">
+
+<?php   foreach ($products_h as $product_h): ?>
                             <div class="single-product">
                                 <div class="product-f-image">
-                                    <img src="public/img/products/001.png" alt="">
+                                    <img src="<?php echo array_get($product_h, 'images.0.url', '');?>" alt="">
                                     <div class="product-hover">
-                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
+                                        <a href="#" class="add-to-cart-link">
+                                            <i class="fa fa-shopping-cart"></i>
+                                            Add to cart
+                                        </a>
+                                        <a href="<?php echo url('products/' . array_get($product_h, 'id', ''));?>" class="view-details-link">
+                                            <i class="fa fa-link"></i>
+                                            See details
+                                        </a>
                                     </div>
                                 </div>
                                 
-                                <h2><a href="single-product.html">ช่อกุหลาบสีขาว</a></h2>
+                                <h2>
+                                    <a href="single-product.html">
+                                        <?php echo array_get($product_h, 'title', '');?>
+                                    </a>
+                                </h2>
                                 
                                 <div class="product-carousel-price">
-                                    <ins>฿700.00</ins> <del>฿1000.00</del>
+                                    <ins>฿<?php echo array_get($product_h, 'price', '');?></ins>
+                                    <del>฿<?php echo array_get($product_h, 'price_normal', '');?></del>
                                 </div> 
                             </div>
-                            <div class="single-product">
-                                <div class="product-f-image">
-                                    <img src="public/img/products/002.png" alt="">
-                                    <div class="product-hover">
-                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
-                                    </div>
-                                </div>
-                                
-                                <h2>ช่อกุหลาบสีชมพู</h2>
-                                <div class="product-carousel-price">
-                                    <ins>฿899.00</ins> <del>฿999.00</del>
-                                </div> 
-                            </div>
-                            <div class="single-product">
-                                <div class="product-f-image">
-                                    <img src="public/img/products/003.png" alt="">
-                                    <div class="product-hover">
-                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
-                                    </div>
-                                </div>
-                                
-                                <h2>ช่อกุหลาบสีแดง + สีชมพู</h2>
-
-                                <div class="product-carousel-price">
-                                    <ins>฿400.00</ins> <del>฿425.00</del>
-                                </div>                                 
-                            </div>
-                            <div class="single-product">
-                                <div class="product-f-image">
-                                    <img src="public/img/products/004.png" alt="">
-                                    <div class="product-hover">
-                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
-                                    </div>
-                                </div>
-                                
-                                <h2><a href="single-product.html">ช่อกุหลาบสีแดง</a></h2>
-
-                                <div class="product-carousel-price">
-                                    <ins>฿200.00</ins> <del>฿225.00</del>
-                                </div>                            
-                            </div>
-                            <div class="single-product">
-                                <div class="product-f-image">
-                                    <img src="public/img/products/005.png" alt="">
-                                    <div class="product-hover">
-                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
-                                    </div>
-                                </div>
-                                
-                                <h2>แจกันกุหลาบสีขาว</h2>
-
-                                <div class="product-carousel-price">
-                                    <ins>฿1200.00</ins> <del>฿1355.00</del>
-                                </div>                                 
-                            </div>
-                            <div class="single-product">
-                                <div class="product-f-image">
-                                    <img src="public/img/products/001.png" alt="">
-                                    <div class="product-hover">
-                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
-                                    </div>
-                                </div>
-                                
-                                <h2><a href="single-product.html">Samsung gallaxy note 4</a></h2>
-
-                                <div class="product-carousel-price">
-                                    <ins>฿400.00</ins>
-                                </div>                            
-                            </div>
+<?php   endforeach; ?>
+                            
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div> <!-- End main content area -->
+<?php endif; ?>

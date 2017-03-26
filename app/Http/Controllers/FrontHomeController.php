@@ -28,12 +28,18 @@ class FrontHomeController extends Controller
         // Highlight products
         $params['type'] = '2';
         $results = requestClient('GET', 'products', $params);
+        $products_h = array_get($results, 'data.record', []);
+
+        // Normal products
+        $params['type'] = '1';
+        $results = requestClient('GET', 'products', $params);
         $products = array_get($results, 'data.record', []);
 
         $view = [
-            'menus'   => $menus,
-            'banners' => $banners,
-            'products' => $products,
+            'menus'      => $menus,
+            'banners'    => $banners,
+            'products_h' => $products_h,
+            'products'   => $products,
         ];
 
         return view('front.home.index', $view);
