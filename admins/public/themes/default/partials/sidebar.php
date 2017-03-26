@@ -36,7 +36,7 @@
         <!-- sidebar menu: : style can be found in sidebar.less -->
         <ul class="sidebar-menu">
             <li class="header">MAIN NAVIGATION</li>
-            <li class="<?php echo (preg_match( "/banners|news|members/",Request::segment(1))) ? '' : 'active ';?>treeview">
+            <li class="<?php echo (preg_match( "/navigations|banners|products|news|members/",Request::segment(1))) ? '' : 'active ';?>treeview">
                 <a href="<?php echo URL::to('');?>">
                     <i class="fa fa-dashboard"></i> <span>Dashboard</span> <i class="fa fa-angle-left pull-right"></i>
                 </a>
@@ -57,6 +57,15 @@
                 <ul class="treeview-menu">
                     <li class="<?php echo Request::is('banners') ? 'active' : '';?>"><a href="<?php echo URL::to('banners');?>"><i class="fa fa-circle-o"></i> List Banner</a></li>
                     <li class="<?php echo Request::is('banners/add*') ? 'active' : '';?>"><a href="<?php echo URL::to('banners/add');?>"><i class="fa fa-circle-o"></i> Add Banners</a></li>
+                </ul>
+            </li>
+            <li class="<?php echo Request::is('products*') ? 'active ' : '';?>treeview">
+                <a href="<?php echo URL::to('products');?>">
+                    <i class="fa fa-files-o"></i> <span>Products</span> <i class="fa fa-angle-left pull-right"></i>
+                </a>
+                <ul class="treeview-menu">
+                    <li class="<?php echo Request::is('products') ? 'active ' : '';?>"><a href="<?php echo URL::to('products');?>"><i class="fa fa-circle-o"></i> List Products</a></li>
+                    <li class="<?php echo Request::is('products/add*') ? 'active ' : '';?>"><a href="<?php echo URL::to('products/add');?>"><i class="fa fa-circle-o"></i> Add Products</a></li>
                 </ul>
             </li>
             <li class="<?php echo Request::is('news*') ? 'active ' : '';?>treeview">

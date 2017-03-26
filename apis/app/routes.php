@@ -50,6 +50,11 @@ if (routeLoad($prefix . 'layouts', $req_path, $route_conf)) {
     Route::resource($prefix . 'layouts', 'LayoutsController');
 }
 
+if (routeLoad($prefix . 'products', $req_path, $route_conf)) {
+    Route::resource($prefix . 'products', 'ProductsController');
+    Route::get($prefix . 'products/update/stat', 'ProductsController@updateStat');
+}
+
 if (routeLoad($prefix . 'news', $req_path, $route_conf)) {
     Route::resource($prefix . 'news', 'NewsController');
     Route::get($prefix . 'news/update/stat', 'NewsController@updateStat');

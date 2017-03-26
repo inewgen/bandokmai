@@ -29,6 +29,11 @@ class Images extends Eloquent
         return $query;
     }
 
+    public function products()
+    {
+        return $this->morphedByMany('Products', 'imageable');
+    }
+
     public function news()
     {
         return $this->morphedByMany('News', 'imageable');

@@ -122,6 +122,15 @@ Route::group(array('before' => 'auth'), function () {
         Route::post('layouts', 'LayoutsController@postEdit');
     }
 
+    if (routeLoad($prefix . 'products', $req_path)) {
+        Route::get('products', 'ProductsController@getIndex');
+        Route::get('products/add', 'ProductsController@getAdd');
+        Route::post('products/uploads', 'ProductsController@postUploads');
+        Route::post('products/add', 'ProductsController@postAdd');
+        Route::get('products/{id}', 'ProductsController@getEdit');
+        Route::post('products', 'ProductsController@postEdit');
+    }
+
     if (routeLoad($prefix . 'news', $req_path)) {
         Route::get('news', 'NewsController@getIndex');
         Route::get('news/add', 'NewsController@getAdd');

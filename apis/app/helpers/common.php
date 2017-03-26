@@ -261,7 +261,7 @@ if (!function_exists('clearCacheStore')) {
 }
 
 if (!function_exists('clearCacheUpdate')) {
-    function clearCacheUpdate($pathcache)
+    function clearCacheUpdate($pathcache, $id)
     {
         $keycache = $pathcache . '.index';
         clearCache($keycache);
@@ -272,7 +272,7 @@ if (!function_exists('clearCacheUpdate')) {
 }
 
 if (!function_exists('clearCacheDestroy')) {
-    function clearCacheDestroy($pathcache)
+    function clearCacheDestroy($pathcache, $id)
     {
         $keycache = $pathcache . '.index';
         clearCache($keycache);

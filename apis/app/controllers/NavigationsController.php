@@ -198,7 +198,7 @@ class NavigationsController extends ApiController
         );
 
         // Clear cache value
-        clearCacheUpdate($this->pathcache);
+        clearCacheUpdate($this->pathcache, $id);
 
         return API::createResponse($response, 0);
     }
@@ -239,7 +239,7 @@ class NavigationsController extends ApiController
         );
 
         // Clear cache value
-        clearCacheDestroy($this->$pathcache);
+        clearCacheDestroy($this->pathcache, $id);
 
         return API::createResponse($response, 0);
     }

@@ -262,7 +262,7 @@ class BlockwordsController extends ApiController
         );
 
         // Clear cache value
-        clearCacheUpdate($this->pathcache);
+        clearCacheUpdate($this->pathcache, $id);
 
         return API::createResponse($data, 0);
     }
@@ -303,7 +303,7 @@ class BlockwordsController extends ApiController
         );
 
         // Clear cache value
-        clearCacheDestroy($this->$pathcache);
+        clearCacheDestroy($this->pathcache, $id);
 
         return API::createResponse($response, 0);
     }
