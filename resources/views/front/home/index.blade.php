@@ -17,11 +17,13 @@
         <div class="container">
             <div class="row">
 
-                @include('front.home.topsellers')
+                @include('front.home.productslist')
+
+                <!-- @include('front.home.topsellers')
                 
                 @include('front.home.recently')
                 
-                @include('front.home.topnew')
+                @include('front.home.topnew') -->
                 
             </div>
         </div>

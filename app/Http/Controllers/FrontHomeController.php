@@ -17,18 +17,23 @@ class FrontHomeController extends Controller
     public function index()
     {
         // Menu
-        $params  = [ 'user_id' => 1, 'status' => 1 ];
+        $params  = [ 'user_id' => 1, 'status' => 1, 'order' => 'position', 'sort' => 'asc'];
         $results = requestClient('GET', 'navigations', $params);
         $menus   = array_get($results, 'data.record', []);
 
         // Banners
-        $params  = [ 'user_id' => 1, 'status' => 1, 'order' => 'position', 'sort' => 'asc'];
         $results = requestClient('GET', 'banners', $params);
         $banners = array_get($results, 'data.record', []);
+
+        // Highlight products
+        $params['type'] = '2';
+        $results = requestClient('GET', 'products', $params);
+        $products = array_get($results, 'data.record', []);
 
         $view = [
             'menus'   => $menus,
             'banners' => $banners,
+            'products' => $products,
         ];
 
         return view('front.home.index', $view);

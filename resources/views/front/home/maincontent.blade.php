@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="latest-product">
-                        <h2 class="section-title">สินค้าล่าสุดของเรา</h2>
+                        <h2 class="section-title">สินค้าแนะนำ</h2>
                         <div class="product-carousel">
                             <div class="single-product">
                                 <div class="product-f-image">
