@@ -17,25 +17,18 @@ class FrontHomeController extends Controller
     public function index()
     {
         // Menu
-        $params  = [ 'user_id' => 1 ];
+        $params  = [ 'user_id' => 1, 'status' => 1 ];
         $results = requestClient('GET', 'navigations', $params);
         $menus   = array_get($results, 'data.record', []);
 
         // Banners
+        $params  = [ 'user_id' => 1, 'status' => 1, 'order' => 'position', 'sort' => 'asc'];
         $results = requestClient('GET', 'banners', $params);
         $banners = array_get($results, 'data.record', []);
-// alert($banners,1);
-        // Slider
-        $result = Slider::where('status', 1)
-               ->orderBy('order', 'asc')
-               ->take(20)
-               ->get();
-        $sliders = json_decode($result, true);
 
         $view = [
             'menus'   => $menus,
             'banners' => $banners,
-            'sliders' => $sliders,
         ];
 
         return view('front.home.index', $view);

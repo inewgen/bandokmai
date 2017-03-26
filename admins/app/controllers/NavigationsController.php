@@ -306,7 +306,7 @@ class NavigationsController extends BaseController
                 'title'    => 'required',
                 'position' => 'required',
                 'url'      => 'required',
-                'status'   => 'required',
+                // 'status'   => 'required',
             );
 
             $id = array_get($data, 'id', 0);
@@ -323,7 +323,7 @@ class NavigationsController extends BaseController
                 'title'    => (isset($data['title'])?$data['title']:''),
                 'position' => (isset($data['position'])?$data['position']:'1'),
                 'url'      => (isset($data['url'])?$data['url']:''),
-                'status'   => (array_get($data, 'status', 1) ? 'true' : 'false'),
+                'status'   => (isset($data['status']) ? 'true' : 'false'),
             );
 
             $client = new Client(Config::get('url.ranbandokmaisod-api'));

@@ -24,13 +24,13 @@ Theme::asset()->container('footer')->add('uploadify', 'public/themes/adminlte2/p
                 title: "required",
                 position: "required",
                 url: "required",
-                status: "required",
+                // status: "required",
             },
             messages: {
                 title: "This field is required",
                 position: "This field is required",
                 url: "This field is required",
-                status: "This field is required",
+                // status: "This field is required",
             }
         });
     });

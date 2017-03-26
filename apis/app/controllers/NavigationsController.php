@@ -35,10 +35,7 @@ class NavigationsController extends ApiController
             return API::createResponse($response, 0);
         }
 
-        $parameters = array(
-            'user_id' => $data['user_id'],
-        );
-
+        $parameters = $data;
         $results = $this->navigationsRepository->lists($parameters);
 
         if (!$results) {
