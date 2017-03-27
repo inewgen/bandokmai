@@ -3,7 +3,7 @@
             <div class="row">
                 <div class="col-sm-6">
                     <div class="logo">
-                        <h1><a href="./"><img src="<?php echo env('RES_URL', 'http://res.ranbandokmaisod.com');?>/img/default/ranbandokmaisod_logo/png/176/64/logo.jpg"></a></h1>
+                        <h1><a href="<?php echo url('');?>"><img src="<?php echo env('RES_URL', 'http://res.ranbandokmaisod.com');?>/img/default/ranbandokmaisod_logo/png/176/64/logo.jpg"></a></h1>
                     </div>
                 </div>
                 

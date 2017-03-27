@@ -20,7 +20,7 @@ return array(
 
     'connections' => array(
 
-         'mysql' => array(
+        'mysql' => array(
             'driver'    => 'mysql',
             'read' => array(
                 'host' => 'localhost', //61.91.1.146
@@ -35,7 +35,7 @@ return array(
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
         ),
-
+        
     ),
 
 );

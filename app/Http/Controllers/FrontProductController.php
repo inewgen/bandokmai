@@ -16,8 +16,18 @@ class FrontProductController extends Controller
      */
     public function index()
     {
+        // Menu
+        $params  = [ 'user_id' => 1, 'status' => 1, 'order' => 'position', 'sort' => 'asc'];
+        $results = requestClient('GET', 'navigations', $params);
+        $menus   = array_get($results, 'data.record', []);
+
+        // Normal products
+        $results = requestClient('GET', 'products', $params);
+        $products = array_get($results, 'data.record', []);
+
         $view = [
-            'menus'  => [],
+            'menus'      => $menus,
+            'products'   => $products,
         ];
 
         return view('front.products.index', $view);
@@ -33,7 +43,7 @@ class FrontProductController extends Controller
         // Normal products
         $results = requestClient('GET', 'products/' . $id, $params);
         $products = array_get($results, 'data.record', []);
-alert($products);
+
         $view = [
             'menus'      => $menus,
             'products'   => $products,

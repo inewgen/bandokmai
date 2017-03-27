@@ -12,5 +12,5 @@
 */
 
 Route::get('/products', 'FrontProductController@index');
-Route::get('/products/{user_id}', 'FrontProductController@show');
+Route::get('/products/{id}', 'FrontProductController@show');
 Route::get('/', 'FrontHomeController@index');

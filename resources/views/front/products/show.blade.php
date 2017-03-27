@@ -4,7 +4,7 @@
 
 @section('content')
 
-	<div class="product-big-title-area">
+    <div class="product-big-title-area">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -16,11 +16,12 @@
         </div>
     </div>
 
+<?php if(isset($products) && is_array($products)): ?>
     <div class="single-product-area">
         <div class="zigzag-bottom"></div>
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <!-- <div class="col-md-4">
                     <div class="single-sidebar">
                         <h2 class="sidebar-title">Search Products</h2>
                         <form action="">
@@ -71,18 +72,18 @@
                             <li><a href="">Sony Smart TV - 2015</a></li>
                         </ul>
                     </div>
-                </div>
+                </div> -->
                 
-                <div class="col-md-8">
+                <div class="col-md-12">
                     <div class="product-content-right">
                         <div class="product-breadcroumb">
                             <a href="<?php echo url('');?>">Home</a>
-                            <a href="<?php echo url('categories');?>/<?php echo array_get($products, '0.categories.id', ''); ?>"><?php echo array_get($products, '0.categories.title', ''); ?></a>
+                            <a href="<?php echo url('products');?>?catid=<?php echo array_get($products, '0.categories.id', ''); ?>"><?php echo array_get($products, '0.categories.title', ''); ?></a>
                             <a href="<?php echo url('products');?>/<?php echo array_get($products, '0.id', ''); ?>"><?php echo array_get($products, '0.title', ''); ?></a>
                         </div>
                         
                         <div class="row">
-                            <div class="col-sm-6">
+                            <div class="col-sm-5">
                                 <div class="product-images">
                                     <div class="product-main-img">
                                         <img src="<?php echo array_get($products, '0.images.0.url', ''); ?>" alt="">
@@ -96,7 +97,7 @@
                                 </div>
                             </div>
                             
-                            <div class="col-sm-6">
+                            <div class="col-sm-7">
                                 <div class="product-inner">
                                     <h2 class="product-name"><?php echo array_get($products, '0.title', ''); ?></h2>
                                     <div class="product-inner-price">
@@ -112,7 +113,7 @@
                                     </form>   
                                     
                                     <div class="product-inner-category">
-                                        <p>Category: <a href="<?php echo url('categories');?>/<?php echo array_get($products, '0.categories.id', ''); ?>"><?php echo array_get($products, '0.categories.title', ''); ?></a>. 
+                                        <p>Category: <a href="<?php echo url('products');?>?catid=<?php echo array_get($products, '0.categories.id', ''); ?>"><?php echo array_get($products, '0.categories.title', ''); ?></a>. 
                                         Tags: <a href="">awesome</a>, <a href="">best</a>, <a href="">sale</a>, <a href="">shoes</a>. </p>
                                     </div> 
                                     
@@ -255,19 +256,20 @@
             </div>
         </div>
     </div>
+<?php endif; ?>
 
 @endsection
 
 @push('styles')
     <style type="text/css">
-    	/* Style */
+        /* Style */
     </style>
 @endpush
 
 @push('scripts')
     <script type="text/javascript">
         $(function () {
-        	/* Script */
+            /* Script */
         });
-	</script>
+    </script>
 @endpush
