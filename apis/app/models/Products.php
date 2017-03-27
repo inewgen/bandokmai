@@ -14,7 +14,7 @@ class Products extends Eloquent
 
     public function categories()
     {
-        return $this->hasOne('Categories', 'id', 'categories')->where('type', '=', '2');
+        return $this->hasOne('Categories', 'id', 'categories')->where('type', '=', '4');
     }
 
     public function tagables()

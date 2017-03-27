@@ -53,6 +53,7 @@
                             <div class="form-group">
                                 <label for="">Type</label>
                                 <select name="type" class="form-control">
+                                    <option value="4"<?php if(array_get($data, 'type', '') == '4'):?> selected="selected"<?php endif;?>>Products</option>
                                     <option value="1"<?php if(array_get($data, 'type', '') == '1'):?> selected="selected"<?php endif;?>>Banners</option>
                                     <option value="2"<?php if(array_get($data, 'type', '') == '2'):?> selected="selected"<?php endif;?>>News</option>
                                     <option value="3"<?php if(array_get($data, 'type', '') == '3'):?> selected="selected"<?php endif;?>>Pages</option>

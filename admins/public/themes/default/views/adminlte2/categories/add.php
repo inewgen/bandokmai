@@ -78,7 +78,8 @@
                             <div class="form-group">
                                 <label for="">Type</label>
                                 <select name="type" class="form-control">
-                                    <option value="1" selected="selected">Banners</option>
+                                    <option value="4" selected="selected">Products</option>
+                                    <option value="1">Banners</option>
                                     <option value="2">News</option>
                                     <option value="3">Pages</option>
                                 </select>

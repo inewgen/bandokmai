@@ -168,7 +168,7 @@ class ProductsController extends BaseController
 
         $parameters = array(
             'user_id' => '1',
-            'type' => '2', //1=banners,2=products
+            'type' => '4', //1=banners,2=products
         );
 
         $client = new Client(Config::get('url.ranbandokmaisod-api'));
@@ -192,7 +192,7 @@ class ProductsController extends BaseController
 
         $user_id = '1';
         $cate = 'products';
-        $cate_id = '2';
+        $cate_id = '4';
         $datetime = date("YmdHis");
         $random = rand(0, 9);
 
@@ -377,7 +377,7 @@ class ProductsController extends BaseController
 
         $parameters = array(
             'user_id' => '1',
-            'type' => '2', //1=banners,2=products
+            'type' => '4', //1=banners,4=products
         );
 
         $results = $client->get('categories', $parameters);
@@ -395,7 +395,7 @@ class ProductsController extends BaseController
         if ($ids == 0) {
             $user_id = '1';
             $cate = 'products';
-            $cate_id = '2';
+            $cate_id = '4';
             $datetime = date("YmdHis");
             $random = rand(0, 9);
             $ids = $user_id . $cate_id . $datetime . $random;
@@ -407,7 +407,7 @@ class ProductsController extends BaseController
             'products' => $entries,
             'categories' => $categories,
             'cate' => 'products',
-            'cate_id' => '2',
+            'cate_id' => '4',
             'id' => $id,
             'ids' => $ids,
             'user_id' => $user_id,
